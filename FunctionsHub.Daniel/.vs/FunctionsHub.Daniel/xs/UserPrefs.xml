@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{A5580257-4A58-4239-BEAE-8BD55B07D219}|Default">
+  <MonoDevelop.Ide.ItemProperties.LakinFamily1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LakinFamily1/LakinFamily1.csproj">
+    <Files>
+      <File FileName="LakinFamily1/LakinFamily1.cs" Line="6" Column="31" />
+      <File FileName="LakinFamily1/LakinFamily1.csproj" Line="18" Column="11" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FunctionsHub.Daniel" expanded="True">
+            <Node name="LakinFamily1" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
