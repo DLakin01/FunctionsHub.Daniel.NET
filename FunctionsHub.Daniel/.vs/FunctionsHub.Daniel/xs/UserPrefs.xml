@@ -1,20 +1,26 @@
-﻿<Properties StartupConfiguration="{A5580257-4A58-4239-BEAE-8BD55B07D219}|Default">
+﻿<Properties StartupConfiguration="{8B9627F3-CBEB-4322-A81A-3FE80F858F53}|Default">
   <MonoDevelop.Ide.ItemProperties.LakinFamily1 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="LakinFamily1/LakinFamily1.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RegulationInput/SendToDB.cs">
     <Files>
-      <File FileName="LakinFamily1/LakinFamily1.cs" Line="6" Column="31" />
-      <File FileName="LakinFamily1/LakinFamily1.csproj" Line="18" Column="11" />
+      <File FileName="RegulationInput/RegulationInput.cs" Line="25" Column="29" />
+      <File FileName="RegulationInput/Content/RegulationForm.html" Line="65" Column="54" />
+      <File FileName="RegulationInput/RegulationInput.csproj" Line="32" Column="11" />
+      <File FileName="RegulationInput/SendToDB.cs" Line="6" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FunctionsHub.Daniel" expanded="True">
-            <Node name="LakinFamily1" expanded="True" selected="True" />
+            <Node name="Common" expanded="True" />
+            <Node name="RegulationInput" expanded="True">
+              <Node name="SendToDB.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.RegulationInput PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

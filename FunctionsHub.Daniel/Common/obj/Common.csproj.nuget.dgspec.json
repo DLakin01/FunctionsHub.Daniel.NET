@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/macbook/Desktop/Azure Experiments/FunctionsHub.Daniel.NET/FunctionsHub.Daniel/Common/Common.csproj": {}
+  },
+  "projects": {
+    "/Users/macbook/Desktop/Azure Experiments/FunctionsHub.Daniel.NET/FunctionsHub.Daniel/Common/Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/macbook/Desktop/Azure Experiments/FunctionsHub.Daniel.NET/FunctionsHub.Daniel/Common/Common.csproj",
+        "projectName": "Common",
+        "projectPath": "/Users/macbook/Desktop/Azure Experiments/FunctionsHub.Daniel.NET/FunctionsHub.Daniel/Common/Common.csproj",
+        "packagesPath": "/Users/macbook/.nuget/packages/",
+        "outputPath": "/Users/macbook/Desktop/Azure Experiments/FunctionsHub.Daniel.NET/FunctionsHub.Daniel/Common/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/macbook/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
