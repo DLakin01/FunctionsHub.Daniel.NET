@@ -18,12 +18,12 @@
                     </div>
                     <div class="form-group">
                         <label for="subjectArea">Subject</label>
-                        <select id="subjectArea" name="SubjectArea" class="form-control" required>
-                            <option value="cannabis">Cannabis</option>
-                            <option value="transportation">Transportation</option>
-                            <option value="construction">Construction</option>
-                            <option value="foodSafety">Food Safety</option>
-                            <option value="pharmacology">Pharmacology</option>
+                        <select id="subjectArea" name="CollectionName" class="form-control" required>
+                            <option value="CannaRegs">Cannabis</option>
+                            <option value="TransportationRegs">Transportation</option>
+                            <option value="ConstructionRegs">Construction</option>
+                            <option value="FoodRegs">Food Safety</option>
+                            <option value="PharmaRegs">Pharmacology</option>
                         </select>
                     </div>
                     <div class="form-group">
@@ -33,14 +33,6 @@
                     <div class="form-group">
                         <label for="jurisdiction">Jurisdiction</label>
                         <input type="text" class="form-control" name="Jurisdiction" id="jurisdiction" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="cosmosAPI">Choose a CosmosDB API to use</label>
-                        <select class="form-control" id="cosmosAPI" name="cosmosAPI" required>
-                            <option value="table">Azure Table</option>
-                            <option value="mongo">MongoDB</option>
-                            <option value="sql">SQL</option>
-                        </select>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
@@ -52,11 +44,18 @@
     <script>
     $(function () {
         $("#cosmosInput").submit(function () {
-            var postBody = JSON.stringify($("#cosmosInput").serialize())
+            var formData = {}
+            $("#cosmosInput").serializeArray().map(function(x){
+                formData[x.name] = x.value;
+            });
+            var postBody = JSON.stringify(formData)
+            console.log(postBody);
+
             $.ajax({
                 type: "POST",
-                url: "https://regulationinput.azurewebsites.net/api/SendToDB",
-                data: postBody";
+                contentType: "application/json",
+                url: "https://9dff82d7.ngrok.io/api/SendToDB",
+                data: postBody,
                 success: function(data) {
                     if (data.Success == true) {
                         alert("Regulation added to DB successfully")

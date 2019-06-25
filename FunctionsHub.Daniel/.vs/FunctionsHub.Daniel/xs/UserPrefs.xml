@@ -1,19 +1,17 @@
 ﻿<Properties StartupConfiguration="{8B9627F3-CBEB-4322-A81A-3FE80F858F53}|Default">
   <MonoDevelop.Ide.ItemProperties.LakinFamily1 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RegulationInput/SendToDB.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RegulationInput/RegulationInput.csproj">
     <Files>
-      <File FileName="RegulationInput/RegulationInput.cs" Line="25" Column="29" />
-      <File FileName="RegulationInput/Content/RegulationForm.html" Line="65" Column="54" />
-      <File FileName="RegulationInput/RegulationInput.csproj" Line="32" Column="11" />
-      <File FileName="RegulationInput/SendToDB.cs" Line="6" Column="1" />
+      <File FileName="RegulationInput/MongoHub.cs" Line="1" Column="1" />
+      <File FileName="RegulationInput/RegulationInput.csproj" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FunctionsHub.Daniel" expanded="True">
-            <Node name="Common" expanded="True" />
             <Node name="RegulationInput" expanded="True">
-              <Node name="SendToDB.cs" selected="True" />
+              <Node name="Content" expanded="True" />
+              <Node name="RegulationInput.csproj" selected="True" />
             </Node>
           </Node>
         </State>
@@ -24,7 +22,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/macbook/Desktop/Azure Experiments/FunctionsHub.Daniel.NET/FunctionsHub.Daniel/RegulationInput/MongoHub.cs" relfile="RegulationInput/MongoHub.cs" line="36" column="31" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

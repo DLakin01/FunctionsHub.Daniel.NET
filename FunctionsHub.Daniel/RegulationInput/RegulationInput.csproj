@@ -4,25 +4,8 @@
     <AzureFunctionsVersion>~2</AzureFunctionsVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.28" />
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.29" />
     <PackageReference Include="MongoDB.Driver" Version="2.8.1" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Remove="Content\RegulationForm.html" />
-    <None Remove="Content\RegulationForm.html" />
-    <None Remove=".gitignore" />
-    <None Remove="host.json" />
-    <None Remove="local.settings.json" />
-    <None Remove="RegulationInput.cs" />
-    <None Remove="$(SpaRoot)**" />
-    <None Remove="RegulationInput.cs" />
-    <None Remove="Content\RegulationForm.html" />
-    <None Remove="bin\Debug\net461\RegulationInput\function.json" />
-    <None Remove="bin\Debug\net461\RegulationInput\function.json" />
-    <None Remove="RegulationInput.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="**/*" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\" />
@@ -34,6 +17,11 @@
     <EmbeddedResource Include="Content\RegulationForm.html" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Remove="SendToDB.cs" />
+    <None Remove="Content\RegulationForm.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="local.settings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>
