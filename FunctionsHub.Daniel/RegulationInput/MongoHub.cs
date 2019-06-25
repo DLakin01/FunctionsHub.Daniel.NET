@@ -25,61 +25,52 @@ namespace RegulationInput
         public const string MONGO_HOST = "regstechmongotest.documents.azure.com";
         public const string USERNAME = "regstechmongotest";
         public const string PASSWORD = "g21JjpzZw6fE7fJiByzozrsRwi5gIgtlwWrX5mIrp7oKbzNuvtBo5iYGoRNPSuElWTVGclXzoQqV5hf70w46yw==";
-        public const string DB_NAME = "globaldb";
+        public const string DB_NAME = "AllRegs";
 
         [FunctionName("SendToDB")]
-        public static async Task SendToDB([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")] HttpRequestMessage req, ILogger log)
+        public static async Task SendToDB([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")]HttpRequestMessage req, ILogger log)
         {
             var postBody = req.Content.ReadAsAsync<Regulation>().Result;
 
-            MongoClientSettings settings = new MongoClientSettings();
-            settings.Server = new MongoServerAddress(MONGO_HOST, 10255);
-            settings.UseSsl = true;
-            settings.SslSettings = new SslSettings();
-            settings.SslSettings.EnabledSslProtocols = SslProtocols.Tls12;
-            settings.ConnectionMode = ConnectionMode.Direct;
-
-            MongoIdentity identity = new MongoInternalIdentity(DB_NAME, USERNAME);
-            MongoIdentityEvidence evidence = new PasswordEvidence(PASSWORD);
-
-            settings.Credential = new MongoCredential("SCRAM-SHA-1", identity, evidence);
-
+            string connectionString = "mongodb://regstechmongotest:3bXjjkRPtvlJtsxZqt2FRIUHaf9FBwcZicIZknCwcJcF8tNU2CrTXGaGq4pxNCNaT2XXlEzQFb7ARRCh6tMMTQ==@regstechmongotest.documents.azure.com:10255/?ssl=true&replicaSet=globaldb";
+            MongoClientSettings settings = MongoClientSettings.FromUrl(new MongoUrl(connectionString));
+            settings.SslSettings = new SslSettings() { EnabledSslProtocols = SslProtocols.Tls12 };
             var mongo = new MongoClient(settings);
+
+            mongo.Cluster.StartSession();
             var dbs = mongo.ListDatabasesAsync().Result.ToListAsync().Result;
 
-            //var db = mongo.GetDatabase(DB_NAME);
-
-            //var collections = db.ListCollectionsAsync().Result.ToListAsync().Result;
-            //if (!collections.Any(c => c.ToString() == postBody.CollectionName))
-            //{
-            //    await db.CreateCollectionAsync(postBody.CollectionName);
-            //}
-
-            //IMongoCollection<Regulation> collection = db.GetCollection<Regulation>(postBody.CollectionName);
-            //collection.InsertOne(postBody);
+            var db = mongo.GetDatabase(DB_NAME);
+            IMongoCollection<Regulation> collection = db.GetCollection<Regulation>(postBody.CollectionName);
+            collection.InsertOne(postBody);
         }
 
-        //[FunctionName("QueryDB")]
-        //public static HttpResponseMessage QueryDB([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")]HttpRequestMessage req, ILogger log)
-        //{
-        //    var collectionVertical = req.GetQueryNameValuePairs().FirstOrDefault(c => string.Compare(c.Key, "collection") == 0).Value;
+        [FunctionName("QueryDB")]
+        public static HttpResponseMessage QueryDB([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")]HttpRequestMessage req, ILogger log)
+        {
+            var collectionVertical = req.GetQueryNameValuePairs().FirstOrDefault(c => string.Compare(c.Key, "collection") == 0).Value;
 
-        //    var mongo = new MongoClient(MONGO_URI);
-        //    var db = mongo.GetDatabase(DB_NAME);
-        //    IMongoCollection<Regulation> collection = db.GetCollection<Regulation>(collectionVertical);
+            string connectionString = "mongodb://regstechmongotest:3bXjjkRPtvlJtsxZqt2FRIUHaf9FBwcZicIZknCwcJcF8tNU2CrTXGaGq4pxNCNaT2XXlEzQFb7ARRCh6tMMTQ==@regstechmongotest.documents.azure.com:10255/?ssl=true&replicaSet=globaldb";
+            MongoClientSettings settings = MongoClientSettings.FromUrl(new MongoUrl(connectionString));
+            settings.SslSettings = new SslSettings() { EnabledSslProtocols = SslProtocols.Tls12 };
+            var mongo = new MongoClient(settings);
 
-        //    var collectionJson = JsonConvert.SerializeObject(collection);
-        //    var response = new HttpResponseMessage(HttpStatusCode.OK) { Content = new StringContent(collectionJson, Encoding.UTF8, "application/json") };
-        //    return response;
-        //}
+            var db = mongo.GetDatabase(DB_NAME);
+            IMongoCollection<Regulation> collection = db.GetCollection<Regulation>(collectionVertical);
+            var allDocuments = collection.Find(new BsonDocument()).ToListAsync().Result;
+
+            var collectionJson = JsonConvert.SerializeObject(allDocuments);
+            var response = new HttpResponseMessage(HttpStatusCode.OK) { Content = new StringContent(collectionJson, Encoding.UTF8, "application/json") };
+            return response;
+        }
     }
 
     public class Regulation
     {
+        public ObjectId _id { get; set; }
         public string RegTitle { get; set; }
         public string CollectionName { get; set; }
         public string RegText { get; set; }
         public string Jurisdiction { get; set; }
-        public string RegType { get; set; }
     }
 }

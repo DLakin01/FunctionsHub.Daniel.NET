@@ -7,3 +7,12 @@
 /Users/macbook/Desktop/Azure Experiments/FunctionsHub.Daniel.NET/FunctionsHub.Daniel/Common/obj/Debug/netstandard2.0/Common.AssemblyInfo.cs
 /Users/macbook/Desktop/Azure Experiments/FunctionsHub.Daniel.NET/FunctionsHub.Daniel/Common/obj/Debug/netstandard2.0/Common.dll
 /Users/macbook/Desktop/Azure Experiments/FunctionsHub.Daniel.NET/FunctionsHub.Daniel/Common/obj/Debug/netstandard2.0/Common.pdb
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\Common\bin\Debug\netstandard2.0\Common.deps.json
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\Common\bin\Debug\netstandard2.0\Common.dll
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\Common\bin\Debug\netstandard2.0\Common.pdb
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\Common\obj\Debug\netstandard2.0\Common.csprojResolveAssemblyReference.cache
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\Common\obj\Debug\netstandard2.0\Common.dll
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\Common\obj\Debug\netstandard2.0\Common.pdb

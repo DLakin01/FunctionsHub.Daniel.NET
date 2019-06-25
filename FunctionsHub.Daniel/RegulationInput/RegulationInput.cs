@@ -15,7 +15,7 @@ namespace RegulationInput
     public static class RegulationInput
     {
         [FunctionName("RegulationInput")]
-        public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")] HttpRequestMessage req, ILogger log)
+        public static HttpResponseMessage Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")]HttpRequestMessage req, ILogger log)
         {
             var embeddedResourceUtility = new EmbeddedResourceUtility();
             var html = embeddedResourceUtility.GetContent("Content.RegulationForm.html");
