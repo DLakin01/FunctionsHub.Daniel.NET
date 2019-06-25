@@ -72,5 +72,6 @@ namespace RegulationInput
         public string CollectionName { get; set; }
         public string RegText { get; set; }
         public string Jurisdiction { get; set; }
+        public string RegType { get; set; }
     }
 }
