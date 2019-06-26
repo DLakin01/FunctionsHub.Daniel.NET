@@ -1,0 +1,4 @@
+/Users/macbook/Desktop/Azure Experiments/FunctionsHub.Daniel.NET/FunctionsHub.Daniel/Common/obj/Debug/netstandard1.5/Common.csprojAssemblyReference.cache
+/Users/macbook/Desktop/Azure Experiments/FunctionsHub.Daniel.NET/FunctionsHub.Daniel/Common/obj/Debug/netstandard1.5/Common.csproj.CoreCompileInputs.cache
+/Users/macbook/Desktop/Azure Experiments/FunctionsHub.Daniel.NET/FunctionsHub.Daniel/Common/obj/Debug/netstandard1.5/Common.AssemblyInfoInputs.cache
+/Users/macbook/Desktop/Azure Experiments/FunctionsHub.Daniel.NET/FunctionsHub.Daniel/Common/obj/Debug/netstandard1.5/Common.AssemblyInfo.cs
