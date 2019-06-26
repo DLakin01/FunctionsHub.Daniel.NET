@@ -4,9 +4,11 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LakinFamily1", "LakinFamily1\LakinFamily1.csproj", "{A5580257-4A58-4239-BEAE-8BD55B07D219}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegulationInput", "RegulationInput\RegulationInput.csproj", "{8B9627F3-CBEB-4322-A81A-3FE80F858F53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegulationInput", "RegulationInput\RegulationInput.csproj", "{8B9627F3-CBEB-4322-A81A-3FE80F858F53}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{4EF6F545-E43C-41E1-93C4-0585B6829CF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFunction", "TestFunction\TestFunction.csproj", "{6385F60E-D0D3-4CA6-B2A4-373731E5C615}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{4EF6F545-E43C-41E1-93C4-0585B6829CF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EF6F545-E43C-41E1-93C4-0585B6829CF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EF6F545-E43C-41E1-93C4-0585B6829CF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6385F60E-D0D3-4CA6-B2A4-373731E5C615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6385F60E-D0D3-4CA6-B2A4-373731E5C615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6385F60E-D0D3-4CA6-B2A4-373731E5C615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6385F60E-D0D3-4CA6-B2A4-373731E5C615}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

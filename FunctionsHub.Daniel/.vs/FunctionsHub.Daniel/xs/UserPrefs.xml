@@ -1,9 +1,12 @@
 ﻿<Properties StartupConfiguration="{8B9627F3-CBEB-4322-A81A-3FE80F858F53}|Default">
+  <MonoDevelop.Ide.ItemProperties.TestFunction FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.LakinFamily1 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RegulationInput/RegulationInput.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestFunction/TestFunction.csproj">
     <Files>
       <File FileName="RegulationInput/MongoHub.cs" Line="1" Column="1" />
-      <File FileName="RegulationInput/RegulationInput.csproj" Line="1" Column="1" />
+      <File FileName="RegulationInput/RegulationInput.csproj" Line="32" Column="11" />
+      <File FileName="TestFunction/TestFunction.cs" Line="1" Column="1" />
+      <File FileName="TestFunction/TestFunction.csproj" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,8 +14,8 @@
           <Node name="FunctionsHub.Daniel" expanded="True">
             <Node name="RegulationInput" expanded="True">
               <Node name="Content" expanded="True" />
-              <Node name="RegulationInput.csproj" selected="True" />
             </Node>
+            <Node name="TestFunction" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -23,7 +26,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/macbook/Desktop/Azure Experiments/FunctionsHub.Daniel.NET/FunctionsHub.Daniel/RegulationInput/MongoHub.cs" relfile="RegulationInput/MongoHub.cs" line="36" column="31" />
+      <Breakpoint file="/Users/macbook/Desktop/Azure Experiments/FunctionsHub.Daniel.NET/FunctionsHub.Daniel/RegulationInput/MongoHub.cs" relfile="RegulationInput/MongoHub.cs" line="37" column="31" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
