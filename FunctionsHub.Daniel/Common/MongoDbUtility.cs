@@ -1,16 +1,13 @@
-﻿using System;
-using System.IO;
-using System.Net;
-using System.Text;
-using System.Linq;
+﻿using System.Linq;
 using System.Runtime.InteropServices;
 using System.Security.Authentication;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 
 using MongoDB.Bson;
 using MongoDB.Driver;
+using MongoDB.Driver.Core;
 using MongoDB.Driver.Core.Events;
+using MongoDB.Driver.Core.Operations;
 using MongoDB.Driver.Linq;
 
 namespace Common
@@ -24,6 +21,7 @@ namespace Common
 
         public MongoDbUtility(string databaseName)
         {
+
             MongoClientSettings settings = MongoClientSettings.FromUrl(new MongoUrl(MONGO_URI));
             settings.SslSettings = new SslSettings() { EnabledSslProtocols = SslProtocols.Tls12 };
             var mongoClient = new MongoClient(settings);
@@ -74,5 +72,15 @@ namespace Common
         {
             return _collection.Find(new BsonDocument()).ToListAsync().Result;
         }
+    }
+
+    public class Regulation
+    {
+        public ObjectId _id { get; set; }
+        public string RegTitle { get; set; }
+        public string CollectionName { get; set; }
+        public string RegText { get; set; }
+        public string jurisdiction { get; set; }
+        public string RegType { get; set; }
     }
 }
