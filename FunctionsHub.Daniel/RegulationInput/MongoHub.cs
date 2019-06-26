@@ -5,7 +5,6 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
@@ -27,9 +26,9 @@ namespace RegulationInput
         }
 
         [FunctionName("QueryDB")]
-        public static HttpResponseMessage QueryDB([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")]HttpRequest req, ILogger log)
+        public static HttpResponseMessage QueryDB([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")]HttpRequestMessage req, ILogger log)
         {
-            var collectionVertical = req.GetQueryParameterDictionary()["collection"];
+            var collectionVertical = req.GetQueryNameValuePairs().FirstOrDefault(c => string.Compare(c.Key, "collection") == 0).Value;
             _mongoUtility.SetCollection(collectionVertical);
             var allDocuments = _mongoUtility.FindAll();
 

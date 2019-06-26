@@ -4,11 +4,8 @@ using System.Security.Authentication;
 using System.Collections.Generic;
 
 using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Driver;
-using MongoDB.Driver.Core;
-using MongoDB.Driver.Core.Events;
-using MongoDB.Driver.Core.Operations;
-using MongoDB.Driver.Linq;
 
 namespace Common
 {
@@ -76,7 +73,10 @@ namespace Common
 
     public class Regulation
     {
+        [BsonId]
         public ObjectId _id { get; set; }
+
+        public string Id { get; set; }
         public string RegTitle { get; set; }
         public string CollectionName { get; set; }
         public string RegText { get; set; }
