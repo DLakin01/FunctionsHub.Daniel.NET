@@ -5009,6 +5009,7 @@
     ".NETStandard,Version=v2.0": [
       "Microsoft.CSharp >= 4.4.1",
       "MongoDB.Driver >= 2.8.1",
+      "MongoDB.Driver.Core >= 2.8.1",
       "NETStandard.Library >= 2.0.1"
     ]
   },
@@ -5061,6 +5062,10 @@
             "version": "[4.4.1, )"
           },
           "MongoDB.Driver": {
+            "target": "Package",
+            "version": "[2.8.1, )"
+          },
+          "MongoDB.Driver.Core": {
             "target": "Package",
             "version": "[2.8.1, )"
           },

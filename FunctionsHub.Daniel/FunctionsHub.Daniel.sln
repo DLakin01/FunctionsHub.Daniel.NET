@@ -8,8 +8,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegulationInput", "Regulati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{4EF6F545-E43C-41E1-93C4-0585B6829CF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoTest", "MongoTest\MongoTest.csproj", "{CE96A5A0-792D-47F3-9677-3F6596B8B784}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,10 +26,6 @@ Global
 		{4EF6F545-E43C-41E1-93C4-0585B6829CF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EF6F545-E43C-41E1-93C4-0585B6829CF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EF6F545-E43C-41E1-93C4-0585B6829CF2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CE96A5A0-792D-47F3-9677-3F6596B8B784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE96A5A0-792D-47F3-9677-3F6596B8B784}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CE96A5A0-792D-47F3-9677-3F6596B8B784}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CE96A5A0-792D-47F3-9677-3F6596B8B784}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
