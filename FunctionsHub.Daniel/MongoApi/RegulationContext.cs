@@ -21,7 +21,6 @@ namespace MongoApi
                 _database = client.GetDatabase(settings.Value.Databasse);
         }
 
-        // Need to explore making this more flexible
         public IMongoCollection<Regulation> Regulations(string collection)
         {
             return _database.GetCollection<Regulation>(collection);
