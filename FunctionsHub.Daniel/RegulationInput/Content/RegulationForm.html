@@ -32,7 +32,7 @@
                     </div>
                     <div class="form-group">
                         <label for="jurisdiction">Jurisdiction</label>
-                        <input type="text" class="form-control" name="Jurisdiction" id="jurisdiction" required>
+                        <input type="text" class="form-control" name="jurisdiction" id="jurisdiction" required>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
@@ -54,7 +54,7 @@
             $.ajax({
                 type: "POST",
                 contentType: "application/json",
-                url: "https://da8e702a.ngrok.io/api/SendToDB",
+                url: "https://16da443e.ngrok.io/api/SendToDB",
                 data: postBody,
                 success: function(data) {
                     if (data.Success == true) {

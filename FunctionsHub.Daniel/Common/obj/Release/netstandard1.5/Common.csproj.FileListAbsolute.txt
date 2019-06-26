@@ -1,0 +1,9 @@
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\Common\bin\Release\netstandard1.5\Common.deps.json
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\Common\bin\Release\netstandard1.5\Common.dll
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\Common\bin\Release\netstandard1.5\Common.pdb
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\Common\obj\Release\netstandard1.5\Common.csproj.CoreCompileInputs.cache
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\Common\obj\Release\netstandard1.5\Common.AssemblyInfoInputs.cache
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\Common\obj\Release\netstandard1.5\Common.AssemblyInfo.cs
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\Common\obj\Release\netstandard1.5\Common.dll
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\Common\obj\Release\netstandard1.5\Common.pdb
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\Common\obj\Release\netstandard1.5\Common.csprojResolveAssemblyReference.cache

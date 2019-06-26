@@ -1,0 +1,9 @@
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\MongoTest\bin\Debug\netcoreapp2.0\MongoTest.deps.json
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\MongoTest\bin\Debug\netcoreapp2.0\MongoTest.dll
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\MongoTest\obj\Debug\netcoreapp2.0\MongoTest.csprojResolveAssemblyReference.cache
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\MongoTest\obj\Debug\netcoreapp2.0\MongoTest.csproj.CoreCompileInputs.cache
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\MongoTest\obj\Debug\netcoreapp2.0\MongoTest.AssemblyInfoInputs.cache
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\MongoTest\obj\Debug\netcoreapp2.0\MongoTest.AssemblyInfo.cs
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\MongoTest\bin\Debug\netcoreapp2.0\MongoTest.pdb
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\MongoTest\obj\Debug\netcoreapp2.0\MongoTest.dll
+C:\Users\DanielLakin\Documents\Github\FunctionsHub.Daniel.NET\FunctionsHub.Daniel\MongoTest\obj\Debug\netcoreapp2.0\MongoTest.pdb
