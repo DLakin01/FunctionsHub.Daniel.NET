@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DLaki\\OneDrive\\Desktop\\GitHub\\FunctionsHub.Daniel.NET\\FunctionsHub.Daniel\\Common\\Common.csproj": {}
+    "C:\\Users\\DLaki\\OneDrive\\Desktop\\GitHub\\FunctionsHub.Daniel.NET\\FunctionsHub.Daniel\\MongoApi\\MongoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DLaki\\OneDrive\\Desktop\\GitHub\\FunctionsHub.Daniel.NET\\FunctionsHub.Daniel\\Common\\Common.csproj": {
+    "C:\\Users\\DLaki\\OneDrive\\Desktop\\GitHub\\FunctionsHub.Daniel.NET\\FunctionsHub.Daniel\\MongoApi\\MongoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DLaki\\OneDrive\\Desktop\\GitHub\\FunctionsHub.Daniel.NET\\FunctionsHub.Daniel\\Common\\Common.csproj",
-        "projectName": "Common",
-        "projectPath": "C:\\Users\\DLaki\\OneDrive\\Desktop\\GitHub\\FunctionsHub.Daniel.NET\\FunctionsHub.Daniel\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\DLaki\\OneDrive\\Desktop\\GitHub\\FunctionsHub.Daniel.NET\\FunctionsHub.Daniel\\MongoApi\\MongoApi.csproj",
+        "projectName": "MongoApi",
+        "projectPath": "C:\\Users\\DLaki\\OneDrive\\Desktop\\GitHub\\FunctionsHub.Daniel.NET\\FunctionsHub.Daniel\\MongoApi\\MongoApi.csproj",
         "packagesPath": "C:\\Users\\DLaki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DLaki\\OneDrive\\Desktop\\GitHub\\FunctionsHub.Daniel.NET\\FunctionsHub.Daniel\\Common\\obj\\",
+        "outputPath": "C:\\Users\\DLaki\\OneDrive\\Desktop\\GitHub\\FunctionsHub.Daniel.NET\\FunctionsHub.Daniel\\MongoApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,14 +21,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp2.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp2.0": {
             "projectReferences": {}
           }
         },
@@ -39,25 +39,21 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp2.0": {
           "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.9, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.8.1, )"
-            },
-            "MongoDB.Driver.Core": {
-              "target": "Package",
-              "version": "[2.8.1, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            },
-            "System.Runtime": {
-              "target": "Package",
-              "version": "[4.3.1, )"
             }
           },
           "imports": [

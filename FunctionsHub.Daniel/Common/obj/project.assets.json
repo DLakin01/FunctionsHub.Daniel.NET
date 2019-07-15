@@ -122,7 +122,7 @@
           "lib/netstandard1.5/MongoDB.Driver.Core.dll": {}
         }
       },
-      "NETStandard.Library/2.0.1": {
+      "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -1406,10 +1406,11 @@
   },
   "libraries": {
     "DnsClient/1.2.0": {
-      "sha512": "UT54vUwsoDR7PP/tD195TVBQArpmFKi/Wo58b7noG24hVVyz2nraN22i+RNA6D0jkhQM3wQjL/IvGzsjKpRhJA==",
+      "sha512": "P34wUkeqU4FoQiOMV8OjpdeDZKs4d3r+VlHuKJ6eO5feiZgna3+9MF5orHRUn3DAv1g/HPE5hlkGucmxmsFfBw==",
       "type": "package",
       "path": "dnsclient/1.2.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "dnsclient.1.2.0.nupkg.sha512",
         "dnsclient.nuspec",
@@ -1424,10 +1425,11 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.1": {
-      "sha512": "mDUJD1eLXIzmUnWCzWlmNQZGDp/cVGT8KyhzMcJNk2nlfdFUOoZai9idT8/FacJr8Nv8zhAmdf39FHm5qWUoGQ==",
+      "sha512": "TMBuzAHpTenGbGgk0SMTwyEkyijY/Eae4ZGsFNYJvAr/LDn1ku3Etp3FPxChmDp5HHF3kzJuoaa08N0xjqAJfQ==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -1438,10 +1440,11 @@
       ]
     },
     "Microsoft.NETCore.Targets/1.1.3": {
-      "sha512": "pxwq8g2PYRiEF5KXVjmZFMNTqsg2Gr1puv/pR1sqAduAKHAGbaCuJ6+yc3pAJseClQUD29S2Ubrm7n/ZD78dUg==",
+      "sha512": "3Wrmi0kJDzClwAC+iBdUBpEKmEle8FQNsCs77fkiOIw/9oYA07bL1EZNX0kQ2OMN3xpwvl0vAtOCYY3ndDNlhQ==",
       "type": "package",
       "path": "microsoft.netcore.targets/1.1.3",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -1516,10 +1519,11 @@
       ]
     },
     "MongoDB.Bson/2.8.1": {
-      "sha512": "iwy1s+r08Jmwe/RbXNDzCVqPz4MSKMNGnCC26FcsZbqAdgr+tg34FtPsjHJAsYNdFNTPqY9bC2GcWLjPVwQ9Ow==",
+      "sha512": "1VV78IbSRKGuqUAVX/qdXKsv1D1BJQutlBhOTHJ8eJPlXQ+5Y2jImiRy825+oHkKeqlc0Qu8NHA9BSqE/btCfA==",
       "type": "package",
       "path": "mongodb.bson/2.8.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "License.txt",
         "lib/net452/MongoDB.Bson.dll",
@@ -1531,10 +1535,11 @@
       ]
     },
     "MongoDB.Driver/2.8.1": {
-      "sha512": "hJ+i92ceiE97T6kVXofYGrX9KE/tW3S7QlO8bnAnxhAVvwKVpKEzGAcx3wIHUNzUwUJnwy8cnHFxROfCsCa8dA==",
+      "sha512": "bmSL+w5P7k30AK9KKSOqzki845iHi+ul5ifp/mF977DjrBKn5ybmSuMoMjzyDzfXIH15cbPn19HnpAH8tnstUw==",
       "type": "package",
       "path": "mongodb.driver/2.8.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "License.txt",
         "lib/net452/MongoDB.Driver.dll",
@@ -1546,10 +1551,11 @@
       ]
     },
     "MongoDB.Driver.Core/2.8.1": {
-      "sha512": "Kaea9dYnNBnLK0IexPyo+KSXyrutowWdKtY59txFAddRcHVFSMZTG7Zuy2up2v8PYiosfJsG6J6xWCWS7ZymUQ==",
+      "sha512": "uyVhvAtURsS5jN3O8LexaAe6zNd8luDYjWZmuhI8tG+TMEsWTPlpWThgPZsX3gyib3Z/a8XSj/dTTATfv4RcuA==",
       "type": "package",
       "path": "mongodb.driver.core/2.8.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "License.txt",
         "lib/net452/MongoDB.Driver.Core.dll",
@@ -1560,14 +1566,14 @@
         "mongodb.driver.core.nuspec"
       ]
     },
-    "NETStandard.Library/2.0.1": {
-      "sha512": "oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
+    "NETStandard.Library/2.0.3": {
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
-      "path": "netstandard.library/2.0.1",
+      "path": "netstandard.library/2.0.3",
       "files": [
+        ".nupkg.metadata",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "build/NETStandard.Library.targets",
         "build/netstandard2.0/NETStandard.Library.targets",
         "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
         "build/netstandard2.0/ref/System.AppContext.dll",
@@ -1684,15 +1690,16 @@
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
         "lib/netstandard1.0/_._",
-        "netstandard.library.2.0.1.nupkg.sha512",
+        "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
-      "sha512": "jwcVUu4ELwy6ObG6ChIFz3PeRH1mKZW65o+FellG99FUwCmnnjdGkIFnVoeHPIvyue/lf1y9Zgw2axylGCP38g==",
+      "sha512": "7VSGO0URRKoMEAq0Sc9cRz8mb6zbyx/BZDEWhgPdzzpmFhkam3fJ1DAGWFXBI4nGlma+uPKpfuMQP5LXRnOH5g==",
       "type": "package",
       "path": "runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -1702,10 +1709,11 @@
       ]
     },
     "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
-      "sha512": "oTXKD09aSTGbWlK39DOPil/EOH7fJvKebL9jo8OjeytcUcnK9WLsQeRw+6KBBgNiRlvFaRW+eC1sdXeKphleRg==",
+      "sha512": "0oAaTAm6e2oVH+/Zttt0cuhGaePQYKII1dY8iaqP7CvOpVKgLybKRFvQjXR2LtxXOXTVPNv14j0ot8uV+HrUmw==",
       "type": "package",
       "path": "runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -1715,10 +1723,11 @@
       ]
     },
     "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
-      "sha512": "LyTiy6iKlrsjhI4UBIeORHimVkI4e3t2qkAHWH/nxNggjL3lPT7WX40Ncc1oi/wWvmbcX3vPhMeyzPGzxQWwtA==",
+      "sha512": "G24ibsCNi5Kbz0oXWynBoRgtGvsw5ZSVEWjv13/KiCAM8C6wz9zzcCniMeQFIkJ2tasjo2kXlvlBZhplL51kGg==",
       "type": "package",
       "path": "runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -1776,10 +1785,11 @@
       ]
     },
     "runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
-      "sha512": "o0rS2+Z+/K6X/L6levOGswZgqYq4IppWwNyiQTFuZzz3om4Zxu+2txF8wnH98gh0G6b4RHriVMkay6Pdt9KSOg==",
+      "sha512": "QR1OwtwehHxSeQvZKXe+iSd+d3XZNkEcuWMFYa2i0aG1l+lR739HPicKMlTbJst3spmeekDVBUS7SeS26s4U/g==",
       "type": "package",
       "path": "runtime.native.system.security.cryptography.openssl/4.3.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -1789,10 +1799,11 @@
       ]
     },
     "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
-      "sha512": "zghz4HAA35jmQL0mXpadSpI2U1zuJpnFNj86spdVew11YmBVeZXy7hY8/wX8K6ki1mug5MsoUh+EHn1UarO2Pg==",
+      "sha512": "I+GNKGg2xCHueRd1m9PzeEW7WLbNNLznmTuEi8/vZX71HudUbx1UTwlGkiwMri7JLl8hGaIAWnA/GONhu+LOyQ==",
       "type": "package",
       "path": "runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -1802,10 +1813,11 @@
       ]
     },
     "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
-      "sha512": "v3VMGmbNcNwb041U/mdendRwQX67pi4veeJ4vo8GzDSW/1jtkNMLXdTT7+qazL0J6xfNh76IKVHA/fuDPDcfcA==",
+      "sha512": "1Z3TAq1ytS1IBRtPXJvEUZdVsfWfeNEhBkbiOCGEl9wwAfsjP2lz3ZFDx5tq8p60/EqbS0HItG5piHuB71RjoA==",
       "type": "package",
       "path": "runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -1827,10 +1839,11 @@
       ]
     },
     "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
-      "sha512": "CjjyXodztYFVtdP5T4SbkzU9CAnaViKLjrq1yXbmRYylDrWjisykyJQGeObpUh+1euSHM398vy6niTrp4/Q5NQ==",
+      "sha512": "6mU/cVmmHtQiDXhnzUImxIcDL48GbTk+TsptXyJA+MIOG9LRjPoAQC/qBFB7X+UNyK86bmvGwC8t+M66wsYC8w==",
       "type": "package",
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -1840,10 +1853,11 @@
       ]
     },
     "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
-      "sha512": "KunbS3GbMfp+QMYPUscAOPyGaOApz04dEg/ejClWMdawggfXAYoik3t5VGAWxWDIlOJ91uvAHV4PZ3Vn5rLE8g==",
+      "sha512": "vjwG0GGcTW/PPg6KVud8F9GLWYuAV1rrw1BKAqY0oh4jcUqg15oYF1+qkGR2x2ZHM4DQnWKQ7cJgYbfncz/lYg==",
       "type": "package",
       "path": "runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -1853,10 +1867,11 @@
       ]
     },
     "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
-      "sha512": "zUt7p0TegAhlIatnytLbMIXUiDiNPZy4PZlGOJ8PTHhFOb86T/uNTzNHxceBOq3vlbNV/SVj4wyUiog8J7lShw==",
+      "sha512": "7KMFpTkHC/zoExs+PwP8jDCWcrK9H6L7soowT80CUx3e+nxP/AFnq0AQAW5W76z2WYbLAYCRyPfwYFG6zkvQRw==",
       "type": "package",
       "path": "runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -1866,10 +1881,11 @@
       ]
     },
     "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
-      "sha512": "1/woqfYA5HHtzgmJwBxIXU4qfplVH1MUE6+nUDmkAE1OLCfoiXbWVDJjWjIdhjFqPGza68ey/vpCFBtk9PENZg==",
+      "sha512": "xrlmRCnKZJLHxyyLIqkZjNXqgxnKdZxfItrPkjI+6pkRo5lHX8YvSZlWrSI5AVwLMi4HbNWP7064hcAWeZKp5w==",
       "type": "package",
       "path": "runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -1879,10 +1895,11 @@
       ]
     },
     "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
-      "sha512": "X+DmqHjv9Zz+JKjVevURQFdtjg/sSYjkiSwjPEezo+7SfewHKmwNVd1hV3fNnOP+VFxTU7SpUok3atC5QI7Uvg==",
+      "sha512": "leXiwfiIkW7Gmn7cgnNcdtNAU70SjmKW3jxGj1iKHOvdn0zRWsgv/l2OJUO5zdGdiv2VRFnAsxxhDgMzofPdWg==",
       "type": "package",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -1892,10 +1909,11 @@
       ]
     },
     "System.Buffers/4.4.0": {
-      "sha512": "Ii2bedd4HVzddupdU35n3ygohUPlNn7MDimBOYcwWNce2NizQ1fCSaQJY1Tzv80aMqOGpVcU4wZr/Xe50xcTwg==",
+      "sha512": "AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
       "type": "package",
       "path": "system.buffers/4.4.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -2388,10 +2406,11 @@
       ]
     },
     "System.Diagnostics.TextWriterTraceListener/4.0.0": {
-      "sha512": "oRsXCz76GDDMrwjMjH6keR9erFIofhGaIMc2d4NykI4rdBEuUP5ZswYA30LGPdyCK7DV4bMBEJL3nJFyAJoS/g==",
+      "sha512": "w36Dr8yKy8xP150qPANe7Td+/zOI3G62ImRcHDIEW+oUXUuTKZHd4DHmqRx5+x8RXd85v3tXd1uhNTfsr+yxjA==",
       "type": "package",
       "path": "system.diagnostics.textwritertracelistener/4.0.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -3241,10 +3260,11 @@
       ]
     },
     "System.Net.Security/4.3.2": {
-      "sha512": "SSkQ3Hsy8kvhET4fY8vu+cWkfx2lcZDDUSuzr+3hzRgHM6jtwm3nZXqIPCYcnDl4eL/i/ECmruCXdAiXaIrc4Q==",
+      "sha512": "xT2jbYpbBo3ha87rViHoTA6WdvqOAW37drmqyx/6LD8p7HEPT2qgdxoimRzWtPg8Jh4X5G9BV2seeTv4x6FYlA==",
       "type": "package",
       "path": "system.net.security/4.3.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -3752,10 +3772,11 @@
       ]
     },
     "System.Runtime/4.3.1": {
-      "sha512": "Al69mPDfzdD+bKGK2HAfB+lNFOHFqnkqzNnUJmmvUe1/qEPK9M7EiTT4zuycKDPy7ev11xz8XVgJWKP0hm7NIA==",
+      "sha512": "abhfv1dTK6NXOmu4bgHIONxHyEqFjW8HwXPmpY9gmll+ix9UNo4XDcmzJn6oLooftxNssVHdJC1pGT9jkSynQg==",
       "type": "package",
       "path": "system.runtime/4.3.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -4938,31 +4959,28 @@
     ".NETStandard,Version=v2.0": [
       "MongoDB.Driver >= 2.8.1",
       "MongoDB.Driver.Core >= 2.8.1",
-      "NETStandard.Library >= 2.0.1",
+      "NETStandard.Library >= 2.0.3",
       "System.Runtime >= 4.3.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DanielLakin\\.nuget\\packages\\": {},
+    "C:\\Users\\DLaki\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\DanielLakin\\Documents\\Github\\FunctionsHub.Daniel.NET\\FunctionsHub.Daniel\\Common\\Common.csproj",
+      "projectUniqueName": "C:\\Users\\DLaki\\OneDrive\\Desktop\\GitHub\\FunctionsHub.Daniel.NET\\FunctionsHub.Daniel\\Common\\Common.csproj",
       "projectName": "Common",
-      "projectPath": "C:\\Users\\DanielLakin\\Documents\\Github\\FunctionsHub.Daniel.NET\\FunctionsHub.Daniel\\Common\\Common.csproj",
-      "packagesPath": "C:\\Users\\DanielLakin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DanielLakin\\Documents\\Github\\FunctionsHub.Daniel.NET\\FunctionsHub.Daniel\\Common\\obj\\",
+      "projectPath": "C:\\Users\\DLaki\\OneDrive\\Desktop\\GitHub\\FunctionsHub.Daniel.NET\\FunctionsHub.Daniel\\Common\\Common.csproj",
+      "packagesPath": "C:\\Users\\DLaki\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DLaki\\OneDrive\\Desktop\\GitHub\\FunctionsHub.Daniel.NET\\FunctionsHub.Daniel\\Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\DanielLakin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DLaki\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4997,7 +5015,7 @@
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.1, )",
+            "version": "[2.0.3, )",
             "autoReferenced": true
           },
           "System.Runtime": {
